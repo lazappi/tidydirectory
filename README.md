@@ -32,4 +32,4 @@ For example, this would run the script every day at 03:00:
 0 3 * * * mamba run -n tidydirectory /path/to/tidydirectory/run-tidydirectory.sh
 ```
 
-The example command runs the script in a [**conda**](https://docs.conda.io/projects/conda/en/stable/) environment (see `envrionment.yml`) but if you don't want to do that you can ignore the `mamba -r -n tidydirectory` part.
+The example command runs the script in a [**conda**](https://docs.conda.io/projects/conda/en/stable/) environment (see `environment.yml`) but if you don't want to do that you can ignore the `mamba -r -n tidydirectory` part.
