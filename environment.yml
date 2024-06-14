@@ -1,0 +1,11 @@
+name: tidydirectory
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - yaml
+  - ca-certificates
+  - openssl
+  - pyyaml
+  - docopt
