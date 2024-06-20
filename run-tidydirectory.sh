@@ -8,5 +8,4 @@ cd ~/path/to/tidydirectory
     --archive-age 7 \
     --delete-age 30 \
     --mapping-file file-mapping.yml \
-    --dry-run 2>&1 | \
-    tee .tidydirectory.log
+    2>&1 | tee  -a .tidydirectory.log
